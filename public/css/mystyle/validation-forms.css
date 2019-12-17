@@ -1,0 +1,60 @@
+/* Validation forms */
+
+
+.form-control
+{
+    color: #673ab7;
+    font-weight: 400;
+}
+.md-form input:not(.browser-default):invalid:not([readonly])
+{
+    border-bottom: 1px solid red;
+    box-shadow: 0 1px 0 0 red;
+    color: red;
+}
+.md-form input:not(.browser-default):focus:not([readonly]):invalid
+{
+    border-bottom: 1px solid red;
+    box-shadow: 0 1px 0 0 red;
+    color: red;
+}
+.select-wrapper input.select-dropdown.not-filled {
+    border-bottom: 1px solid red;
+    box-shadow: 0 1px 0 0 red;
+    color: red;
+}
+
+.md-form.input-group .form-control {
+    padding: 0 0;
+}
+.mdb-select {
+    flex-grow: 1;
+}
+input:invalid::-webkit-input-placeholder,
+select:invalid::-webkit-input-placeholder {
+    color: red;
+}
+input:invalid::-moz-placeholder,
+select:invalid::-moz-placeholder {
+    color: red;
+}
+input:invalid:-ms-input-placeholder,
+select:invalid:-ms-input-placeholder {
+    color: red;
+}
+input:invalid:-moz-placeholder,
+select:invalid:-moz-placeholder {
+    color: red;
+}
+
+.md-form input {
+    color: #673ab7;
+}
+
+.dropdown-content li.disabled.active {
+    display: none;
+}
+
+.mdb-select input {
+    color: #6c757d;
+}
